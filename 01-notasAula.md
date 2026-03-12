@@ -1,6 +1,33 @@
 # Notas de aula da disciplina 
 Neste arquivo, há apontame
-
+## Aula 4
+- Conceitos:
+  - Sistema
+    - Partes
+    - tipos
+  - **Computação ou processamento**
+    - desktop --Máquinas é um computador desktop controla uma máquina diretamente ligada a ela. 
+    computador pessoal projetado para ficar em um local fixo
+    
+    - web-> Cloud Computing- Computador em Nuvem
+      - App (software instalado em equipamentos) Por que equipamentos? Porque hoje tem software em tv, em roupa
+      - IoT -Internet of Things (internet das coisas) Mas hoje em dia isso da problemas, as pessoas estão conseguindo invadir por exemplo o carro.. Botão de ligar e desligar, controla algumas funções. 
+      Foi graças a IoT computação em núvem  a inteligência artificial evoluiu, por que o processamento é em núvem, as pessoas juntam várias peças e faz um Clusses um super processador.
+  - Que vantagens a computação deu?
+    - flexibilidade
+    - autonomia
+    - agilidade
+    - integração de tecnologias
+  - Desvantagens?
+    - segurança
+    - depêndecia (internet) 
+  - Arquitetura:
+    - Cliente-servidor
+    - Ponto-a-ponto
+  -Modelos arquiteturais de serviços
+    - IaaS (MÁQUINA NA NÚVEM, NÃO TENHO HARDWARE, CONTRATA) (precisa instalar as ferramentas na máquina, word, ppt) Software entra como serviço accessa via App ou navegador
+    - PAAs (Software plataforma 
+    - SaaS (
 ## Aula 3
 - Apresentação de Oficina de Git-
 -Apresentação, dicussão e 1° trabalho avaliado
