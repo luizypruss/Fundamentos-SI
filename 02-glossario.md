@@ -9,13 +9,13 @@ Neste arquivo, são armazenadas palavras ou expressões estudadas na disciplina,
     - **DaaS:(Desktop as a Service)** Desktop virtual Computador virtual na nuvem, acesso ao PC  de forma remota, não precisa instalar nada.
       Exemplo de aplicação: Microsoft Windows 365, Amazon Web Services WorkSpaces.
       
-    - **DBaaS:(Database as a Service)**Banco na nuvem- Banco de dados na nuvem pronto para usar. Criar banco sem instalar MySQL no computador. 
+    - **DBaaS:(Database as a Service)** Banco na nuvem- Banco de dados na nuvem pronto para usar. Criar banco sem instalar MySQL no computador. 
     Exemplo de aplicação: MongoDB Atlas
 
     - **FaaS: (Function as a Service)** Funções na nuvem- Envia apenas funções, elas executam quando necessário. Apessoa controla a lógica e as fuções. 
     Exemplo de aplicação: Amazon Web Services Lambda
 
-    - **IaaS: (Infrastructure as a Service):**Máquina virtual-  O provedor te entrega uma máquina virtual "limpa/crua". Você tem acesso via SSH, escolhe o Linux, instala o Docker, configura o Firewall e o IP manualmente. Você é a Administradora de Sistemas. **Recursos**(CPU, RAM, Disco, Rede)
+    - **IaaS: (Infrastructure as a Service):** Máquina virtual-  O provedor te entrega uma máquina virtual "limpa/crua". Você tem acesso via SSH, escolhe o Linux, instala o Docker, configura o Firewall e o IP manualmente. Você é a Administradora de Sistemas. **Recursos**(CPU, RAM, Disco, Rede)
     Exemplos de aplicações: Google Cloud Compute Engine.
 
     - **PaaS: (Platform as a Service)** Plataforma pronta- Essa arquitetura de software, ela oferece toda a infraestrutura (servidores, sistemas e banco de dados) para o programador focar apenas no desenvolvimento do código, é a camada **intermediária** que remove a complexidade de configurar máquinas só injeta somente a lógica de negócio (código) e os dados. Você apenas faz o "Upload" do código, a plataforma decide em qual máquina o código vai rodar e como a rede será isolada, é como construir um resteurante mas ele já vem imobiliádo. **Workflow** (Build, Deploy, Escalonamento) 
