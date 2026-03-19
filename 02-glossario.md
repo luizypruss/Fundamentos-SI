@@ -28,4 +28,43 @@ Neste arquivo, são armazenadas palavras ou expressões estudadas na disciplina,
     Exemplo de aplicação: Cloudflare e Kaspersky. 
     - **CaaS:** Conteiners, máquinas virtuais em forma de software dentro de outra. "Compartilha hardware" no mínimo 16GB- 8GB DE RAM
     Exemplos de aplicação? VitualBOX da Oracle.
-    
+
+    ## **Tipos de Sistema de Informação**
+    - Sistemas de Processamento de Transações (TPS)
+Registram e processam operações rotineiras do dia a dia (ex: vendas, pagamentos).
+
+- Sistemas de Informação Gerencial (MIS)
+Transformam dados em relatórios para auxiliar gestores no controle e planejamento.
+
+- Sistemas de Apoio à Decisão (DSS)
+Ajudam na análise de dados complexos para decisões estratégicas.
+
+- Sistemas de Apoio Executivo (ESS/EIS)
+Fornecem informações resumidas e estratégicas para altos executivos.
+
+- Sistemas de Automação de Escritório (OAS)
+Facilitam tarefas administrativas (e-mails, documentos, agendas).
+
+- Sistemas de Gestão do Conhecimento (KMS)
+Armazenam e compartilham conhecimento dentro da organização.
+
+- Sistemas Empresariais (ERP)
+Integram diferentes áreas da empresa (finanças, RH, produção) em um único sistema.
+
+- Sistemas Especialistas / Inteligentes
+Utilizam regras e inteligência artificial para resolver problemas específicos.
+
+## *Exemplos:*
+  - Minha Agenda UFN:
+Sistema OAS (Automação de Escritório)
+Função: Organizar compromissos acadêmicos (aulas, provas, tarefas)
+Automatiza rotinas administrativas do estudante facilita comunicação e organização
+Atua no nível operacional, ajudando no dia a dia dos usuários.
+
+- Sistema de Imposto de Renda (Receita Federal)
+Tipo principal: TPS + MIS
+Função: Receber, processar e analisar declarações fiscais
+Processa milhões de declarações (transações) todo ano
+Gera dados para controle e fiscalização do governo
+Classificação: TPS + MIS
+
