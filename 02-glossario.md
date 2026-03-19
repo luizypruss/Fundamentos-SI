@@ -55,7 +55,7 @@ Integram diferentes áreas da empresa (finanças, RH, produção) em um único s
 Utilizam regras e inteligência artificial para resolver problemas específicos.
 
 ## *Exemplos:*
-  - Minha Agenda UFN:
+- Minha Agenda UFN:
 Sistema OAS (Automação de Escritório)
 Função: Organizar compromissos acadêmicos (aulas, provas, tarefas)
 Automatiza rotinas administrativas do estudante facilita comunicação e organização
