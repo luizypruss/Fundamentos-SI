@@ -45,14 +45,14 @@ Fornecem informações resumidas e estratégicas para altos executivos. (Anális
     - **Sistemas de Automação de Escritório (SAE)**
 Facilitam tarefas administrativas (e-mails, documentos, agendas).
 
-  - **Sistemas de Gestão do Conhecimento (SGC)**
+    - **Sistemas de Gestão do Conhecimento (SGC)**
 Armazenam e compartilham conhecimento dentro da organização.
 (Problemas podem acontecer quem resolveu e como resolveu, normalmente há um portal)
 
-  - **Sistemas Empresariais (ERP)**
+    - **Sistemas Empresariais (ERP)**
 Integram diferentes áreas da empresa (finanças, RH, produção) em um único sistema.
 
-  - **Sistemas Especialistas / Inteligentes**
+    - **Sistemas Especialistas / Inteligentes**
 Utilizam regras e inteligência artificial para resolver problemas específicos.
 
 ## *Exemplos:*
