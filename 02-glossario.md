@@ -33,25 +33,26 @@ Neste arquivo, são armazenadas palavras ou expressões estudadas na disciplina,
     - Sistemas de Processamento de Transações (TPS)
 Registram e processam operações rotineiras do dia a dia (ex: vendas, pagamentos).
 
-- Sistemas de Informação Gerencial (MIS)
+    - **Sistemas de Informação Gerencial (SIG)**
 Transformam dados em relatórios para auxiliar gestores no controle e planejamento.
 
-- Sistemas de Apoio à Decisão (DSS)
+    - **Sistemas de Apoio à Decisão (SAD)**
 Ajudam na análise de dados complexos para decisões estratégicas.
 
-- Sistemas de Apoio Executivo (ESS/EIS)
-Fornecem informações resumidas e estratégicas para altos executivos.
+    - **Sistemas de Apoio Executivo (ESS/EIS/SAE)**
+Fornecem informações resumidas e estratégicas para altos executivos. (Análise de clientes, dashboard)
 
-- Sistemas de Automação de Escritório (OAS)
+    - **Sistemas de Automação de Escritório (SAE)**
 Facilitam tarefas administrativas (e-mails, documentos, agendas).
 
-- Sistemas de Gestão do Conhecimento (KMS)
+  - **Sistemas de Gestão do Conhecimento (SGC)**
 Armazenam e compartilham conhecimento dentro da organização.
+(Problemas podem acontecer quem resolveu e como resolveu, normalmente há um portal)
 
-- Sistemas Empresariais (ERP)
+  - **Sistemas Empresariais (ERP)**
 Integram diferentes áreas da empresa (finanças, RH, produção) em um único sistema.
 
-- Sistemas Especialistas / Inteligentes
+  - **Sistemas Especialistas / Inteligentes**
 Utilizam regras e inteligência artificial para resolver problemas específicos.
 
 ## *Exemplos:*
