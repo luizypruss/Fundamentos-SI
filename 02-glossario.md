@@ -1,6 +1,6 @@
 # Glossário ou vocabulário da disciplina
 Neste arquivo, são armazenadas palavras ou expressões estudadas na disciplina, com uma breve descrição delas
-- Crud:  gerenciando etapas
+
 ## Palavras ou expressões
   - <b>ARQUITETURA DE COMPUTADORES</b>: Em termos simples, é o projeto conceitual e a estrutura operacional que define como os componentes de hardware (processador, memória, entrada/saída) se interconectam e funcionam para executar instruções.
   - <b>SISTEMA</b>: conjunto de elementos que interagem entre si em prol de solucionar e fazer funcionar um esquema.
@@ -43,7 +43,7 @@ Ajudam na análise de dados complexos para decisões estratégicas.
 Fornecem informações resumidas e estratégicas para altos executivos. (Análise de clientes, dashboard)
 
     - **Sistemas de Automação de Escritório (SAE)**
-Facilitam tarefas administrativas (e-mails, documentos, agendas).
+Facilitam tarefas administrativas (e-mails, documentos, agendas). 
 
     - **Sistemas de Gestão do Conhecimento (SGC)**
 Armazenam e compartilham conhecimento dentro da organização.
@@ -54,6 +54,10 @@ Integram diferentes áreas da empresa (finanças, RH, produção) em um único s
 
     - **Sistemas Especialistas / Inteligentes**
 Utilizam regras e inteligência artificial para resolver problemas específicos.
+
+    - **Sistema CRM (Customer Relationship Management)** 
+    Uma plataforma de gestão de relacionamento que centraliza dados de clientes, interações, vendas e marketing em um único local, em forma mais simples, o software de CRM ajuda a gerenciar, com eficiência, as informações que coletou sobre seus clientes, conhece o cliente. 
+    Sistema de 
 
 ## *Exemplos:*
 - Minha Agenda UFN:
@@ -69,3 +73,4 @@ Processa milhões de declarações (transações) todo ano
 Gera dados para controle e fiscalização do governo
 Classificação: TPS + MIS
 
+- CRUD:  Gerenciando Etapas, quatro operações fundamentais realizadas sobre dados em qualquer aplicação de software.  Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar) 
