@@ -74,3 +74,6 @@ Gera dados para controle e fiscalização do governo
 Classificação: TPS + MIS
 
 - CRUD:  Gerenciando Etapas, quatro operações fundamentais realizadas sobre dados em qualquer aplicação de software.  Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar) 
+
+- *Throughput de Rede*   Seria o volume médio de *dados* que podem realmente passar pela rede em um período específico. Em outras palavras, throughput nada mais é do que uma medida de requisições realizadas com sucesso por unidade de tempo.
+- Latência:  tempo  que leva para resposnder. (Vemos isso no PING)
