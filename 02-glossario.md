@@ -77,3 +77,13 @@ Classificação: TPS + MIS
 
 - *Throughput de Rede*   Seria o volume médio de *dados* que podem realmente passar pela rede em um período específico. Em outras palavras, throughput nada mais é do que uma medida de requisições realizadas com sucesso por unidade de tempo.
 - Latência:  tempo  que leva para resposnder. (Vemos isso no PING)
+
+## Internet das Coisas
+  - IoT: são as redes dos dispositivos físicos que se conectam e trocam de dados através da internet. Conecta dispositivos do dia dia para facilitar a comunicação, interação e integra à internet. Com isso eles transmitem dados a partis da nuvem.
+  Isso muda como as pessoas lidam com dados e interagem com dispositivos, facilitando que as pessoas possam ter mais informação e agilidade em acessa-lás. É possível  gerenciar os objetos  e dispositivos à distância.
+    - Exemplos: eletrodomesticos, aplicativos, carros...
+    - Funcionamento a partis de conexão a rede (Wi-fi) ou Bluetooth , acessando a nuvem, sensores, machine learning, inteligência antificial. 
+    - Identificados através dos endereços IP 
+
+    
+      
