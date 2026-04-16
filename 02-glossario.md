@@ -83,7 +83,27 @@ Classificação: TPS + MIS
   Isso muda como as pessoas lidam com dados e interagem com dispositivos, facilitando que as pessoas possam ter mais informação e agilidade em acessa-lás. É possível  gerenciar os objetos  e dispositivos à distância.
     - Exemplos: eletrodomesticos, aplicativos, carros...
     - Funcionamento a partis de conexão a rede (Wi-fi) ou Bluetooth , acessando a nuvem, sensores, machine learning, inteligência antificial. 
-    - Identificados através dos endereços IP 
+    - Identificados através dos endereços IP
+#Sistemas Pervasivos e Sistema Obíquos
+<img width="405" height="124" alt="images" src="https://github.com/user-attachments/assets/3ded5f8f-2268-481f-b473-ce1e64711223" />
 
+- *Sistema pervasivos:*  São sistemas que estão espalhados por vários lugares e dispositivos ao mesmo tempo, fazendo parte do nosso dia a dia sem que a gente precise ficar buscando por eles. A ideia é que a tecnologia esteja presente no ambiente ao redor, conectando diferentes dispositivos para facilitar a vida das pessoas. Um exemplo simples seria uma casa inteligente, onde as luzes, o ar-condicionado e as câmeras se comunicam entre si e reagem automaticamente ao que acontece no ambiente.
+
+- *Existem 3 tipos de sistema pervasinos:*
+  - Sistemas pervasivos por rede de sensores:
+  São sistemas formados por aparelhos eletrônicos, como: Ipad, tablets, tv’s, geladeiras. Compõe todos os aparelhos que compõem um sistema domésticos de uma casa e são ligados a um únicos sistema distribuído, que mais comumente é um modem roteador que dará acesso a rede. Esse sistema tem como principal característica e também vulnerabilidade, não ser autoconfigurável e nem auto gerenciável. O que torna um aspecto importante a ser melhorado. 
+  
+  - Sistemas pervasivos para tratamento de saúde: Esse sistema tem como principal objetivo evitar a hospitalização do paciente. Ele leva o médico a ter um controle 100% do tempo do paciente, onde estaria no corpo do mesmo alguns sensores instalados que levariam a informação sobre a monitoração que exerce a cada momento. Necessita de uma rede de dados sem interrupções e também não tem a finalidade de incomodar o paciente no seus trabalhos diários. 
+O principal problema ainda é além de uma rede de dados que esteja sempre em bom funcionamento é também o custo, que fica relativamente alto com esse método.
+
+  - Sistemas pervasivos domésticos: Estas se caracterizam por possuírem um elevado número de nodos (dispositivos), geralmente de tamanho reduzido e com possibilidade de mobilidade. Cada sensor e um elemento autônomo capaz de captar a informação do meio, tratar e enviar estas informações através de uma infraestrutura de comunicação sem-fio, para isso e necessário ter no mínimo um transceptor para comunicações, uma unidade de sensoriamento, fonte de energia, memoria e uma unidade de processamento. 
+
+- *Sistema Oblíquo:* "São sistemas que, assim como os pervasivos, estão em todo lugar, mas com uma característica especial: eles funcionam de forma tão discreta e natural que a gente mal percebe que estão ali. O conceito foi criado por Mark Weiser e propõe que a tecnologia se torne parte invisível do cotidiano, como se fosse algo tão comum quanto a luz elétrica, que a gente usa sem nem pensar. Um exemplo seria o celular que automaticamente muda o fuso horário quando você viaja para outro país.
+ - Exemplo:  Smartphones que automaticamente ajustam o idioma, fuso horário e configurações ao detectar a localização do usuário. Uma casa inteligente, em que vários sensores e atuadores atuam integrados para que se tenha as condições desejadas no ambiente, tais como controle de luminosidade, controle de temperatura, entre outros. 
+  - Exemplos:
+  -  Quando você entra no carro e o bluetooth conecta sozinho no seu celular.
+  -  O reconhecimento de rosto que desbloqueia o celular sem você fazer nada.
+  -  A Netflix que te recomenda séries baseada no que você já assistiu.
+  -  O Google Maps que já sabe o trânsito em tempo real sem você pedir.
     
       
