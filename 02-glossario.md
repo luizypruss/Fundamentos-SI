@@ -84,7 +84,7 @@ Classificação: TPS + MIS
     - Exemplos: eletrodomesticos, aplicativos, carros...
     - Funcionamento a partis de conexão a rede (Wi-fi) ou Bluetooth , acessando a nuvem, sensores, machine learning, inteligência antificial. 
     - Identificados através dos endereços IP
-  # Sistemas Pervasivos e Sistema Obíqas
+  # Sistemas Pervasivos e Sistema Ubíquos
 <img width="405" height="124" alt="images" src="https://github.com/user-attachments/assets/3ded5f8f-2268-481f-b473-ce1e64711223" />
 
 - *Sistema pervasivos:*  São sistemas que estão espalhados por vários lugares e dispositivos ao mesmo tempo, fazendo parte do nosso dia a dia sem que a gente precise ficar buscando por eles. A ideia é que a tecnologia esteja presente no ambiente ao redor, conectando diferentes dispositivos para facilitar a vida das pessoas. Um exemplo simples seria uma casa inteligente, onde as luzes, o ar-condicionado e as câmeras se comunicam entre si e reagem automaticamente ao que acontece no ambiente.
