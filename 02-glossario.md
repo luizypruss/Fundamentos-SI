@@ -126,7 +126,7 @@ Anotações em aula:
     Uma vez conectado,
     Tem vunerabilidades: Falta de criptografia
     
-    # Conceitos de Técnica & Metodologia
+    ## Conceitos de Técnica & Metodologia
       - Técnicas: A técnica é a aplicação prática e específica tipo colocar mão na massa mesmo. É o conhecimento técnico necessário para realizar uma tarefa dentro de uma etapa da metodologia, ou seja, quando se tem um problema você pose escolher uma tecnica para       resolver ele.  Caso não funcione você pode trocar e escolher outra técnica, ou seja, tendo mais versatibilidades durante o processo. Utilizando técnicas  tem a chance de maior precisão.
       Exemplos: Test Driven Development (TDD), Refatoração de Código, Modelagem de Dados, Algoritmos de Ordenação.
       Em resumo: É a ferramenta ou o saber fazer manual.
