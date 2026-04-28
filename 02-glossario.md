@@ -108,12 +108,12 @@ O principal problema ainda é além de uma rede de dados que esteja sempre em bo
   -  A Netflix que te recomenda séries baseada no que você já assistiu.
   -  O Google Maps que já sabe o trânsito em tempo real sem você pedir.
 
-# ioT e Modelo TCP/IP
+# IoT e Modelo TCP/IP
 Anotações em aula: 
     Computadores se comunicam (trocar informação) atravéz de um cabo de rede que tem portas lógicas, passa comunicação, escrita ou leitura. Sem isso (TCP)  não tem internet das coisa. 
     Conjunto de protocolos para ter comunicação.
     
-    reiniciar o modem,  pela um novo servidor, cria um nova rota pq cai por ter um um ta sobrecarregado. 
+    Reiniciar o modem,  pela um novo servidor, cria um nova rota pq cai por ter um um ta sobrecarregado. 
     Teu wi-fi trava que tem tanto sinal na mesma frequencia ele trava.
     Principio do wi-fi é  regra de fidelidade, celular fiel a uma torre, tentando garantir a comunicação. (isso em redes de telefonia)  
     
@@ -125,4 +125,16 @@ Anotações em aula:
     Passa por uma rede, comunicando dadot. 
     Uma vez conectado,
     Tem vunerabilidades: Falta de criptografia
+    
+    # Conceitos de Técnica & Metodologia
+      - Técnicas: A técnica é a aplicação prática e específica tipo colocar mão na massa mesmo. É o conhecimento técnico necessário para realizar uma tarefa dentro de uma etapa da metodologia, ou seja, quando se tem um problema você pose escolher uma tecnica para       resolver ele.  Caso não funcione você pode trocar e escolher outra técnica, ou seja, tendo mais versatibilidades durante o processo. Utilizando técnicas  tem a chance de maior precisão.
+      Exemplos: Test Driven Development (TDD), Refatoração de Código, Modelagem de Dados, Algoritmos de Ordenação.
+      Em resumo: É a ferramenta ou o saber fazer manual.
+
+      - Métodos: É algo maior, é quando você define fluxos, organiza processos, define etapas, atribui papéis as pessoas. Normalmente algo definido antes  de iniciar um projeto, ou seja, mais difícil de mudar após a inicialização. 
+        Exemplos: Scrum, Kanban, Modelo em Cascata (Waterfall).
+        Em resumo: É o caminho que a equipe escolhe seguir.
+        Integrar  trello com github é possívem conectando a gestão de tarefas (Trello) com o código-fonte (GitHub). 
+          - Através de: Power-Up Oficial do GitHub/ Automação via GitHub Actions/ Ferramentas de Terceiros (Zapier / Pluga)
+
       
