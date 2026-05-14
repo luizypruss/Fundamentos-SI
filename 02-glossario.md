@@ -156,5 +156,8 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
         Em resumo: É o caminho que a equipe escolhe seguir.
         Integrar  trello com github é possívem conectando a gestão de tarefas (Trello) com o código-fonte (GitHub). 
           - Através de: Power-Up Oficial do GitHub/ Automação via GitHub Actions/ Ferramentas de Terceiros (Zapier / Pluga)
+     
+## CRM (Gestão de Relacionamento com o Cliente)
+
 
       
