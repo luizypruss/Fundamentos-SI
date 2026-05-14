@@ -110,12 +110,12 @@ O principal problema ainda é além de uma rede de dados que esteja sempre em bo
 
 # IoT e Modelo TCP/IP
   Comunicação entre conputadorees: Computadores se comunicam (trocar informação) atravéz de um cabo de rede que tem portas lógicas, passa comunicação, escrita ou leitura. Sem isso (TCP)  não tem internet das coisa  
-- IP: Cada dispositivo tem um IP (Uma endereço/Cpf/identificação)
+## IP: Cada dispositivo tem um IP (Uma endereço/Cpf/identificação)
   - Cada dispositivo possui suas portas (tipo “portas de entrada/saída” de dados)
     - Esses dados podem ser: leitura, escrita, envio/recebimento.
       Exemplo: Ao acessar um site o PC conversa com o *servidor via internet usando TCP/IP*
     
-- IoT = objetos (celular, geladeira, sensor, etc.) trocando dados pela internet  e *depende de dispositivos trocando dados*.
+  ## IoT = objetos (celular, geladeira, sensor, etc.) trocando dados pela internet  e *depende de dispositivos trocando dados*.
 Quem organiza essa troca são os  protocolos (TCP/IP)
   - Quem permite esse troca de dados?  conjunto de protocolos TCP/IP
   
@@ -130,11 +130,11 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
 - *Redes móveis (4G/5G):* Celular fica “preso” à torre mais próxima só troca quando necessário (porque ele é fiel a torre, e isso pode esquentar ele)
  (isso em redes de telefonia) 
  
-## Camadas do TCP/IP:
+# Camadas do TCP/IP:
   - Camada de aplicação: Aonde o usuário interaje. Ex:Navegador, WhatsApp, App de IoT. 
   - Camada de Transporte: Responsável por levar a mensagem do ponto A até o ponto B do jeito certo.   
     ela controla: se chegou, se chegou completo, se precisa reenviar, a velocidade do envio. (tipo abrir um site ou mandar mensagem, divide os dados)
-    # Diferença dos protocolos TCP e UDP:
+    ## Diferença dos protocolos TCP e UDP:
     - TCP + confiável (garante entrega) Porque antes de enviar algo na rede ele confirma se tem alguém ouvindo ou se recebeu a mensagem toda. Se não chegou → reenvia
     o TCP também controla a velocidade de envio pra não sobrecarregar o receptor.
     - UDP + rápido (não garante a entrega) Só envia, não vê se tem alguém do outro lado. Não verifica se chegou, não reenvia. 
@@ -146,7 +146,7 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
    Passa por uma rede, comunicando dadot. Uma vez conectado, tem vunerabilidades: Falta de criptografia
     
     
-## Conceitos de Técnica & Metodologia
+# Conceitos de Técnica & Metodologia
    - Técnicas: A técnica é a aplicação prática e específica tipo colocar mão na massa mesmo. É o conhecimento técnico necessário para realizar uma tarefa dentro de uma etapa da metodologia, ou seja, quando se tem um problema você pose escolher uma tecnica para       resolver ele.  Caso não funcione você pode trocar e escolher outra técnica, ou seja, tendo mais versatibilidades durante o processo. Utilizando técnicas  tem a chance de maior precisão.
       Exemplos: Test Driven Development (TDD), Refatoração de Código, Modelagem de Dados, Algoritmos de Ordenação.
       Em resumo: É a ferramenta ou o saber fazer manual.
@@ -157,7 +157,16 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
         Integrar  trello com github é possívem conectando a gestão de tarefas (Trello) com o código-fonte (GitHub). 
           - Através de: Power-Up Oficial do GitHub/ Automação via GitHub Actions/ Ferramentas de Terceiros (Zapier / Pluga)
      
-## CRM (Gestão de Relacionamento com o Cliente)
+# CRM (Gestão de Relacionamento com o Cliente)
+  ## O que é: É um sistema que ajuda empresas a gerenciar todas as interações com o cliente melhorando suas relações e otimizando.
+  - Gerencia  todas as interações da empresa com o cliente os atuais e os potenciais.
+  - Objetivo é melhoras o relacionamento  para expandir o negócio desejado.
+  - Ajuda a manter as empresas a manter a conexão com os cliente, otimizando os processos e aumentando o lucro.
+  - Rastreia cada interação como: ligações de vendas, interação com serviço, emails...
+    ## Como ele funciona:
+    Armazena  as informações de contato dos clientes e potenciais clientes em nuvem, para identificar oportunidades de venda, registrar problemas do serviço e gerencias. Isso tudo em um local mais centralizado, por ser armazenado em nuvem, torna isso mais mais flexivel com todos tendo acesso. A atualização é em tempo real.
+    ## Importância de ter um CRM no sistema:
+    -  Quando o negócio entende quem é o cliente e a sua jornada, é muito mais fácil ser acertivo nas suas ações e decisões, e o CRM  torna esses processos com potencial maior de produção. 
 
 
       
