@@ -166,7 +166,10 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
     ## Como ele funciona:
     Armazena  as informações de contato dos clientes e potenciais clientes em nuvem, para identificar oportunidades de venda, registrar problemas do serviço e gerencias. Isso tudo em um local mais centralizado, por ser armazenado em nuvem, torna isso mais mais flexivel com todos tendo acesso. A atualização é em tempo real.
     ## Importância de ter um CRM no sistema:
-    -  Quando o negócio entende quem é o cliente e a sua jornada, é muito mais fácil ser acertivo nas suas ações e decisões, e o CRM  torna esses processos com potencial maior de produção. 
+    -  Quando o negócio entende quem é o cliente e a sua jornada, é muito mais fácil ser acertivo nas suas ações e decisões, e o CRM  torna esses processos com potencial maior de produção.
+    -  
+      # Conceito de Docker
+      https://github.com/diogo-alves/anotacoes-curso-descomplicando-o-docker-#containers
 
 
       
