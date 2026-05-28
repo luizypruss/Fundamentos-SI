@@ -1,4 +1,4 @@
-### GUIA COMPLETO CRIAÇÃO DOCKER
+# GUIA COMPLETO CRIAÇÃO DOCKER
 
 ## 1. O que é Docker?
 O Docker é uma tecnologia de virtualização a nível de sistema operacional. Ao contrário de uma Máquina Virtual (VM) tradicional, que precisa de um sistema operacional inteiro para cada instância, o Docker compartilha o núcleo (kernel) do sistema operacional hospedeiro. Ele empacota o código do seu aplicativo junto com todas as dependências (bibliotecas, variáveis de ambiente) em um único arquivo chamado Imagem. Quando essa imagem é executada, ela se torna um Contêiner isolado e leve.
@@ -10,7 +10,7 @@ Portabilidade ultra-rápida: Facilita migrar o aplicativo entre computadores ou 
 Instalação simplificada: Você não precisa instalar Python, PostgreSQL ou Redis diretamente no seu Windows.
 ## 3. Passo a Passo: Configuração Local (Windows) com Python-Django
 
-# Requisitos Iniciais no Windows
+## Requisitos Iniciais no Windows
 
 - Baixe e instale o Docker Desktop para Windows.
 - Certifique-se de ativar o recurso WSL 2 (Windows Subsystem for Linux) durante a instalação, pois o Docker no Windows depende dele.
@@ -26,11 +26,11 @@ meu-projeto-django/
 ├── requirements.txt (ARQUIVOS OBRIGATÓRIOS)
 └── (O código do seu projeto Django ficará aqui dentro)
 
-# Passo A: Criar o arquivo requirements.txt Adicione as dependências básicas do seu projeto:
+## Passo A: Criar o arquivo requirements.txt Adicione as dependências básicas do seu projeto:
 
 Django>=5.0 gunicorn
 
-# Passo B: Criar o arquivo Dockerfile O Dockerfile é a receita para construir a imagem da sua aplicação.
+## Passo B: Criar o arquivo Dockerfile O Dockerfile é a receita para construir a imagem da sua aplicação.
 
 Usa uma imagem oficial do Python adaptada para Linux leve
 FROM python:3.11-slim (UTILIZA A VERSÃO MAIS LEVE DO PYTHON, MAS ISSO É OPCIONAL, VOCÊ PODE CRIAR VÁRIAS VERSÕES)
@@ -59,11 +59,11 @@ EXPOSE 8000
 - Comando padrão para iniciar o servidor de desenvolvimento
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
-# Passo C: Criar o arquivo docker-compose.yml O Compose gerencia múltiplos contêineres (como sua aplicação + banco de dados) de forma simplificada.
+## Passo C: Criar o arquivo docker-compose.yml O Compose gerencia múltiplos contêineres (como sua aplicação + banco de dados) de forma simplificada.
 
 version: '3.8' services: web: build: . command: python manage.py runserver 0.0.0.0:8000 volumes: - .:/app ports: - "8000:8000" environment: - DEBUG=1
 
-# Passo D: Iniciar o projeto Django
+## Passo D: Iniciar o projeto Django
 
 Com o Docker Desktop aberto, execute o comando abaixo no terminal do Windows para gerar o código inicial do Django através do próprio contêiner:
 
@@ -71,7 +71,7 @@ docker-compose run web django-admin startproject meu_projeto .
 
 (Note o ponto . no final para criar na pasta atual).
 
-# Passo E: Rodar a aplicação localmente
+## Passo E: Rodar a aplicação localmente
 
 Agora basta subir o contêiner:
 
