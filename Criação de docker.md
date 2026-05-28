@@ -9,17 +9,22 @@ Isolamento total: Permite rodar diferentes versões de Python ou bancos de dados
 Portabilidade ultra-rápida: Facilita migrar o aplicativo entre computadores ou servidores em poucos minutos.
 Instalação simplificada: Você não precisa instalar Python, PostgreSQL ou Redis diretamente no seu Windows.
 ## 3. Passo a Passo: Configuração Local (Windows) com Python-Django
+
 # Requisitos Iniciais no Windows
 
-Baixe e instale o Docker Desktop para Windows.
-Certifique-se de ativar o recurso WSL 2 (Windows Subsystem for Linux) durante a instalação, pois o Docker no Windows depende dele.
-Abra o terminal (PowerShell ou Prompt de Comando) e verifique se foi instalado corretamente:
+- Baixe e instale o Docker Desktop para Windows.
+- Certifique-se de ativar o recurso WSL 2 (Windows Subsystem for Linux) durante a instalação, pois o Docker no Windows depende dele.
+- Abra o terminal (PowerShell ou Prompt de Comando) e verifique se foi instalado corretamente:
 docker --version docker-compose --version
 
-Criando a Estrutura do Projeto Django [15]
-Crie uma pasta para o seu projeto no Windows (ex: meu-projeto-django) e monte a seguinte estrutura de arquivos básicos: [16]
+Criando a Estrutura do Projeto Django 
+Crie uma pasta para o seu projeto no Windows (ex: meu-projeto-django) e monte a seguinte estrutura de arquivos básicos: 
 
-meu-projeto-django/ ├── Dockerfile ├── docker-compose.yml ├── requirements.txt └── (O código do seu projeto Django ficará aqui dentro)
+meu-projeto-django/ 
+├── Dockerfile 
+├── docker-compose.yml 
+├── requirements.txt (ARQUIVOS OBRIGATÓRIOS)
+└── (O código do seu projeto Django ficará aqui dentro)
 
 # Passo A: Criar o arquivo requirements.txt Adicione as dependências básicas do seu projeto:
 
@@ -28,30 +33,30 @@ Django>=5.0 gunicorn
 # Passo B: Criar o arquivo Dockerfile O Dockerfile é a receita para construir a imagem da sua aplicação.
 
 Usa uma imagem oficial do Python adaptada para Linux leve
-FROM python:3.11-slim
+FROM python:3.11-slim (UTILIZA A VERSÃO MAIS LEVE DO PYTHON, MAS ISSO É OPCIONAL, VOCÊ PODE CRIAR VÁRIAS VERSÕES)
 
-Define o diretório de trabalho dentro do contêiner
+- Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
 
-Evita que o Python grave os arquivos .pyc no disco
+- Evita que o Python grave os arquivos .pyc no disco
 ENV PYTHONDONTWRITEBYTECODE 1
 
-Evita que o Python faça buffer das saídas stdout e stderr
+- Evita que o Python faça buffer das saídas stdout e stderr
 ENV PYTHONUNBUFFERED 1
 
-Instala as dependências do sistema
+- Instala as dependências do sistema
 RUN apt-get update && apt-get install -y --no-install-recommends gcc libpq-dev && apt-get clean
 
-Copia o arquivo de requisitos e instala as dependências do Python
+- Copia o arquivo de requisitos e instala as dependências do Python
 COPY requirements.txt /app/RUN pip install --no-cache-dir -r requirements.txt
 
-Copia todo o restante do código do computador para o contêiner
+- Copia todo o restante do código do computador para o contêiner
 COPY . /app/
 
-Expõe a porta padrão que o Django/Gunicorn vai rodar
+- Expõe a porta padrão que o Django/Gunicorn vai rodar
 EXPOSE 8000
 
-Comando padrão para iniciar o servidor de desenvolvimento
+- Comando padrão para iniciar o servidor de desenvolvimento
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 # Passo C: Criar o arquivo docker-compose.yml O Compose gerencia múltiplos contêineres (como sua aplicação + banco de dados) de forma simplificada.
