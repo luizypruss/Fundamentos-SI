@@ -169,6 +169,31 @@ Quem organiza essa troca são os  protocolos (TCP/IP)
     -  Quando o negócio entende quem é o cliente e a sua jornada, é muito mais fácil ser acertivo nas suas ações e decisões, e o CRM  torna esses processos com potencial maior de produção.
     -  
       # Conceito de Docker
+      ## O que é um Docker:
+Docker empacota uma aplicação e tudo que ela precisa (código, bibliotecas, configurações) dentro de um container — um ambiente isolado e portátil que roda igual em qualquer máquina.
+
+## Container: 
+A instância em execução de uma imagem. É o processo isolado rodando de fato, com seu próprio sistema de arquivos e rede.
+Analogia: É como uma marmita lacrada. Você prepara uma vez, embala com tudo dentro (ingredientes, temperos, instruções) e qualquer pessoa pode aquecer e consumir — independente da cozinha que tiver.
+
+## Volume:
+Espaço de armazenamento persistente. Dados num volume sobrevivem mesmo se o container for destruído.
+
+## Imagem:
+O "molde" do container. Define o que vai dentro. Como uma classe em OOP você a usa para criar instâncias (containers).
+## Dockerfile:
+Arquivo de instruções para construir uma imagem. Como uma receita passo a passo: FROM, RUN, COPY, CMD...
+## Docker Hub:
+Repositório público de imagens prontas. Como o GitHub, mas para imagens Docker. Nginx, Postgres, Python já estão lá.
+## Docker Compose:
+Arquivo YAML que define e orquestra múltiplos containers juntos (ex: app + banco de dados) com um só comando.
+
+## O que é uma VENV?
+Uma VENV (virtual environment) isola as dependências Python de um projeto. Cada projeto tem sua própria cópia do Python e dos pacotes instalados, sem interferir em outros projetos ou no Python global do sistema.
+  - Analogia: É como ter gavetas separadas para cada projeto. Cada gaveta tem seus próprios itens você não mistura os parafusos do projeto A com os do projeto B.
+  ## O que é uma VM?
+  Uma VM (Virtual Machine) simula um computador completo dentro do seu computador. Ela tem seu próprio sistema operacional, kernel, memória e disco — como se fosse uma máquina física separada, mas rodando em cima do seu hardware real.
+  - Analogia: É como ter um apartamento dentro de uma casa. A casa é o servidor físico; o apartamento tem suas próprias paredes, encanamento e energia independentes.
       https://github.com/diogo-alves/anotacoes-curso-descomplicando-o-docker-#containers
     https://github.com/josemalcher/Udemy-Docker-Ferramenta-essencial-para-Desenvolvedores/tree/master
 
