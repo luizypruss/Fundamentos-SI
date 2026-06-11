@@ -182,7 +182,8 @@ Espaço de armazenamento persistente. Dados num volume sobrevivem mesmo se o con
 
 ### Imagem:
 O "molde" do container. Define o que vai dentro. Como uma classe em OOP você a usa para criar instâncias (containers).
-## Dockerfile:
+
+### Dockerfile:
 Arquivo de instruções para construir uma imagem. Como uma receita passo a passo: FROM, RUN, COPY, CMD...
 
 ### Docker Hub:
